@@ -1,5 +1,5 @@
 Library Management System
-A comprehensive and basic library management system built using Node.js, Express, MySQL, and a frontend with HTML, CSS, and JavaScript. This application provides functionalities to manage users, books, and rentals efficiently.
+A comprehensive library management system built using Node.js, Express, MySQL, and a frontend with HTML, CSS, and JavaScript. This application provides functionalities to manage users, books, and rentals efficiently.
 
 Features
 User registration and login with secure password hashing.
@@ -80,11 +80,3 @@ Create a new branch: git checkout -b feature/your-feature-name.
 Commit your changes: git commit -m 'Add some feature'.
 Push to the branch: git push origin feature/your-feature-name.
 Open a pull request.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Contact
-For questions or support, reach out to:
-
-Your Name: Sreehari
-GitHub: mssreehari
