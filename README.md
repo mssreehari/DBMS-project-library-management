@@ -19,6 +19,7 @@ Before you begin, ensure you have the following installed:
 - *MySQL* (v8+)
 - *npm* (Node Package Manager)
 - *Git* (optional, for cloning the repository)
+- Xampp
 
 ## Getting Started
 
