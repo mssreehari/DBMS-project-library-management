@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    background-image: url("../index.jpg");
+    background-size:cover;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex ;
+}
+
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: transparent;
+   border-color: 2px solid rgba(64, 49, 49, 0.959);
+   backdrop-filter: blur(20px);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    justify-content: center;
+
+    
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+    color: rgb(242, 220, 177);
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(113, 73, 38);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+button:hover {
+    background-color: #ac5f21;
+}

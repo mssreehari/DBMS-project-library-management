@@ -1,0 +1,78 @@
+body {
+    background: rgb(255, 162, 23);
+    background: linear-gradient(90deg, rgba(240,197,137,1) 0%, rgba(255,168,4,1) 100%, rgba(0,212,255,1) 100%);
+    backdrop-filter: blur(2px);
+}
+header {
+    width: 100%;
+    text-align: center; /* Center the text inside the header */
+    margin-bottom: 30px; /* Space below the header */
+    justify-content:center ;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 3rem; /* Font size for the main heading */
+    color: #333; /* Text color */
+    margin: 20px 0; /* Margin above and below the heading */
+    text-align: center;
+}
+
+/* Dashboard section container (flexbox) */
+.dashboard-sections {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Space between the two sections */
+}
+.form {
+    margin: 20px 0;
+}
+
+.form input {
+    padding: 8px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+#admin-books-list .book-card {
+    width: 200px;
+}
+
+#admin-books-list button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+/* Manage books and manage members sections */
+#manage-books-section, #manage-members-section {
+    margin-top: 75px;
+    margin-left: 100px;
+    margin-right: 150px;
+    flex: 1; /* Ensures both sections take equal space */
+    padding: 20px; /* Adds space inside the section */
+    border: 1px solid #ccc; /* Optional: adds a border to the sections */
+    border-radius: 30px; /* Optional: gives rounded corners to the sections */
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1); /* Optional: adds a shadow for better visibility */
+    
+}
+.container {
+    display: flex;
+    flex-direction: row; /* Place elements side by side */
+    justify-content: space-between; /* Space between sections */
+    gap: 20px; /* Optional: adds space between the sections */
+   
+}
+.new-member-name{
+    border-radius: 10px;
+    background-color: transparent;
+    
+}
+.new-book-title{
+    border-radius: 10px;
+    background-color: transparent; 
+}
+.members-list{
+    gap: 10px;
+}

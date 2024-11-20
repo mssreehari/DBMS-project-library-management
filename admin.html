@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Library Management System</title>
+    <link rel="stylesheet" href="./CSS/admin-styles.css">
+</head>
+<body>
+     <header>
+            <h1>Admin Dashboard</h1>
+        </header>
+
+    <div class="container">
+       
+        <section id="manage-books-section">
+            <h2>Manage Books</h2>
+
+            <!-- Add Book Form -->
+            <div class="form">
+                <h3>Add New Book</h3>
+                <input type="text" id="new-book-title" placeholder="Book Title" />
+                <button onclick="addBook()">Add Book</button>
+            </div>
+
+            <!-- List of Books -->
+            <h3>Available Books</h3>
+            <div id="admin-books-list">
+                <!-- Books will be dynamically inserted here -->
+            </div>
+        </section>
+
+        <section id="manage-members-section">
+            <h2>Manage Members</h2>
+
+            <!-- Add Member Form -->
+            <div class="form">
+                <h3>Add New Member</h3>
+                <input type="text" id="new-member-name" placeholder="Member Name" />
+                <button  onclick="addMember()">Add Member</button>
+            </div>
+
+            <!-- List of Members -->
+            <h3>Library Members</h3>
+            <ul id="members-list">
+                <!-- Members will be dynamically inserted here -->
+            </ul>
+        </section>
+    </div>
+
+    <script src="./JS/admin.js"></script>
+</body>
+</html>
